@@ -1,0 +1,7 @@
+# as upstream
+usr/lib/x86_64-linux-gnu/libclang-17.so.17 usr/lib/x86_64-linux-gnu/libclang-17.so.1
+usr/lib/x86_64-linux-gnu/libclang-17.so.17 usr/lib/llvm-17/lib/libclang-17.so.17
+usr/lib/llvm-17/lib/libclang-17.so.17 usr/lib/llvm-17/lib/libclang.so.1
+# one link for the last soname with the full version
+usr/lib/x86_64-linux-gnu/libclang-17.so.17 usr/lib/x86_64-linux-gnu/libclang-17.so.17.0.5
+usr/lib/x86_64-linux-gnu/libclang-17.so.17 usr/lib/x86_64-linux-gnu/libclang-17.so.17.0.4

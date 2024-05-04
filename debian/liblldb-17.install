@@ -1,0 +1,3 @@
+usr/lib/llvm-17/lib/liblldb-17.so.1 /usr/lib/x86_64-linux-gnu/
+
+usr/lib/llvm-17/lib/liblldbIntelFeatures.so.*
