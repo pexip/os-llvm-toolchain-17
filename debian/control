@@ -2,8 +2,9 @@ Source: llvm-toolchain-17
 Section: devel
 Priority: optional
 Rules-Requires-Root: no
-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
-Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
 Build-Depends: debhelper (>= 10.0), cmake, ninja-build,
     chrpath, texinfo, sharutils,
     libelf-dev,
@@ -38,6 +39,7 @@ Standards-Version: 4.6.2
 Homepage: https://www.llvm.org/
 Vcs-Git: https://salsa.debian.org/pkg-llvm-team/llvm-toolchain.git -b 17
 Vcs-Browser: https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/tree/17
+XS-Pexip-Upstream: http://deb.debian.org/debian/ trixie
 
 # ------------- clang -------------
 
