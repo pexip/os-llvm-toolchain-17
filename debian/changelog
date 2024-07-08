@@ -1,3 +1,10 @@
+llvm-toolchain-17 (1:17.0.6-12+pexip24u1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+  * Don't build SPIR-V support
+
+ -- Huw Jones <huw@pexip.com>  Mon, 08 Jul 2024 11:50:32 +0100
+
 llvm-toolchain-17 (1:17.0.6-12) unstable; urgency=medium
 
   * Add oracular as supported release
